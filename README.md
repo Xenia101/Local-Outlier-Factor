@@ -5,6 +5,15 @@ Local Outlier Factor Score 도출
 >In anomaly detection, the local outlier factor (LOF) is an algorithm proposed by Markus M. Breunig, Hans-Peter Kriegel, Raymond T. Ng and Jörg Sander in 2000 for finding anomalous data points by measuring the local deviation of a given data point with respect to its neighbours.
 [WIKIPEDIA](https://en.wikipedia.org/wiki/Local_outlier_factor)
 
+## 예시
+```python
+from sklearn.neighbors import LocalOutlierFactor
+import numpy as np
+
+clf = LocalOutlierFactor(n_neighbors=n)
+clf.fit_predict(X)
+```
+
 ## 설치 방법
 - 실행 환경 (테스트 환경)
   - Windows 10 or Ubuntu Linux
