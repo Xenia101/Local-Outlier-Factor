@@ -23,6 +23,6 @@ clf.fit_predict(X)
 
 - Input : example_of_input.csv 
 
-`python3 LocalOutlierFactor.py`
+  `python3 LocalOutlierFactor.py`
 
 - Output : example_of_output.csv
