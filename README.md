@@ -1,4 +1,9 @@
 # Local-Outlier-Factor (LOF)
+
+<p align=center>
+  <img width="50%" src="https://github.com/Xenia101/Local-Outlier-Factor/blob/master/img/1.png?raw=true">
+</p>
+
 Local Outlier Factor Score 도출
 
 ### LOF 란?
