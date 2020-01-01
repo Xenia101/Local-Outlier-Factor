@@ -30,4 +30,4 @@ clf.fit_predict(X)
 
   `python3 LocalOutlierFactor.py`
 
-- Output : example_of_output.csv
+- Output : example_of_output.csv with LOF scores
