@@ -15,8 +15,11 @@ Local Outlier Factor Score 도출
 from sklearn.neighbors import LocalOutlierFactor
 import numpy as np
 
-clf = LocalOutlierFactor(n_neighbors=n)
-clf.fit_predict(X)
+clf = LocalOutlierFactor(n_neighbors=3, contamination=0.1)
+clf.fit_predict(load_data())
+X_scores = clf.negative_outlier_factor_
+
+X_scores # X_scores is a negative number
 ```
 
 ## 설치 방법
