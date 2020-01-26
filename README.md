@@ -19,7 +19,7 @@ clf = LocalOutlierFactor(n_neighbors=3, contamination=0.1)
 clf.fit_predict(load_data())
 X_scores = clf.negative_outlier_factor_
 
-X_scores # X_scores is a negative number
+X_scores  # X_scores is a negative number
 -X_scores # print positive number
 ```
 
