@@ -20,6 +20,7 @@ clf.fit_predict(load_data())
 X_scores = clf.negative_outlier_factor_
 
 X_scores # X_scores is a negative number
+-X_scores # print positive number
 ```
 
 ## 설치 방법
