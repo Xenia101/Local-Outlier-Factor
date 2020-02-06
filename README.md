@@ -28,7 +28,7 @@ X_scores  # X_scores is a negative number
   - Windows 10 or Ubuntu Linux
   - Python3.x
 
-## 사용 방법
+## Usage
 
 - Input : ```example_of_input.csv```
 
