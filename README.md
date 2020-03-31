@@ -23,10 +23,9 @@ X_scores  # X_scores is a negative number
 -X_scores # print positive number
 ```
 
-## 설치 방법
-- 실행 환경 (테스트 환경)
-  - Windows 10 or Ubuntu Linux
-  - Python3.x
+## Execution / Test Environment
+- Windows 10 or Ubuntu Linux
+- Python3.x
 
 ## Usage
 
