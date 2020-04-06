@@ -4,7 +4,7 @@
   <img width="50%" src="https://github.com/Xenia101/Local-Outlier-Factor/blob/master/img/1.png?raw=true">
 </p>
 
-Local Outlier Factor Score 도출
+Deriving the Local Outlier Factor Scores
 
 ### LOF 란?
 >In anomaly detection, the local outlier factor (LOF) is an algorithm proposed by Markus M. Breunig, Hans-Peter Kriegel, Raymond T. Ng and Jörg Sander in 2000 for finding anomalous data points by measuring the local deviation of a given data point with respect to its neighbours.
