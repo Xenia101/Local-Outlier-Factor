@@ -25,7 +25,7 @@ X_scores  # X_scores is a negative number
 
 ## Execution / Test Environment
 - Windows 10 or Ubuntu Linux
-- Python3.x
+- Python **3.6**
 
 ## Usage
 
