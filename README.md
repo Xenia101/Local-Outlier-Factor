@@ -20,7 +20,7 @@ clf.fit_predict(load_data())
 X_scores = clf.negative_outlier_factor_
 
 X_scores  # X_scores is a negative number
--X_scores # print positive number
+-X_scores # print a positive number
 ```
 
 ## Execution / Test Environment
@@ -33,4 +33,4 @@ X_scores  # X_scores is a negative number
 
   `python3 LocalOutlierFactor.py`
 
-- Output : ```example_of_output.csv``` with LOF scores
+- Output : ```example_of_output.csv``` with *LOF scores*
