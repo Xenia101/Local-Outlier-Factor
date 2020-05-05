@@ -8,7 +8,7 @@ def load_data():
     training_f = open(file_name, "r")
     training_csvReader = csv.reader(training_f)
      
-    next(training_csvReader) # Remove F irst Row
+    next(training_csvReader) # Remove First Row
 
     total_node = list(training_csvReader)
     for i in range(len(total_node)) :
